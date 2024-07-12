@@ -1,0 +1,11 @@
+.slide{
+    overflow-x: hidden;
+    
+    &__polaroids{
+        max-width: 1200px;
+        width: 100%;
+        overflow-x: hidden;
+    }
+}
+
+

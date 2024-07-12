@@ -1,3 +1,5 @@
+AOS.init();
+
 const birthdayDate = new Date('oct 4, 2024, 12:00:00');
 const timeStampBirthday = birthdayDate.getTime();
 const counterElement = document.querySelector('.hero__content__counter');

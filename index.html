@@ -14,13 +14,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     
 </head>
 <body>
     <section class="hero ">
-        <img class="hero__polaroid hero__polaroid--1" src="./dist/images/hero_polaroid.png" alt="">
-        <img class="hero__polaroid hero__polaroid--2" src="./dist/images/hero_polaroid2.png" alt="">
-        <img class="hero__polaroid hero__polaroid--3" src="./dist/images/hero_polaroid3.png" alt="">
+        <img data-aos="fade-right" class="hero__polaroid hero__polaroid--1" src="./dist/images/hero_polaroid.png" alt="">
+        <img data-aos="fade-right" class="hero__polaroid hero__polaroid--2" src="./dist/images/hero_polaroid2.png" alt="">
+        <img data-aos="fade-left" class="hero__polaroid hero__polaroid--3" src="./dist/images/hero_polaroid3.png" alt="">
         <div class="container">
             <div class="hero__content">
                 <h1 class="hero__title title title--big">
@@ -47,12 +49,12 @@
 
     <section class="slide">
         <div class="container container--text-center">
-            <div class="container__title">
+            <div data-aos="fade-up" class="container__title">
                 <h2 class="title title--medium">Memorial</h2>
                 <p class="text">aniversários passados</p>
             </div>
             
-            <div class="slide__polaroids">
+            <div data-aos="fade-up" class="slide__polaroids">
                 <img class="slide__polaroids__polaroid" src="./dist/images/slide_polaroids/1.png" alt="Foto dos aniversários passados">
                 <img class="slide__polaroids__polaroid" src="./dist/images/slide_polaroids/2.png" alt="Foto dos aniversários passados">
                 <img class="slide__polaroids__polaroid" src="./dist/images/slide_polaroids/3.png" alt="Foto dos aniversários passados">
@@ -71,12 +73,12 @@
 
     <section class="events">
         <div class="container container--text-center">
-            <div class="container__title">
+            <div data-aos="fade-up" class="container__title">
                 <h2 class="title title--medium">O que teremos lá</h2>
                 <p class="text">nossas práticas de divertimento</p>
             </div>
 
-            <div class="events__item">
+            <div data-aos="fade-up" class="events__item">
                 <img class="events__item__img" src="./dist/images/friends-camping.jpg" alt=""> 
                 
                 <div class="events__item__info"> 
@@ -91,7 +93,7 @@
                 </div>
             </div>
 
-            <div class="events__item events__item--image-left">
+            <div data-aos="fade-up" class="events__item events__item--image-left">
                 <img class="events__item__img" src="./dist/images/friends-sports.jpg" alt=""> 
                 
                 <div class="events__item__info events__item__info--blue"> 
@@ -106,7 +108,7 @@
                 </div>
             </div>
 
-            <div class="events__item">
+            <div data-aos="fade-up" class="events__item">
                 <img class="events__item__img" src="./dist/images/friends-in-beach.jpg" alt=""> 
                 
                 <div class="events__item__info" > 
@@ -124,6 +126,7 @@
         </div>
     </section>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
